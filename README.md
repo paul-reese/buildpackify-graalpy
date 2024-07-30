@@ -43,7 +43,7 @@ pack build buildpackify \
 ```
 > Now you have an OCI image to run
 
-# Run the OCI image
+**Run the OCI image**
 ```bash
 docker run buildpackify
 ```
