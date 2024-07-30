@@ -53,15 +53,15 @@ docker run buildpackify
 
 - Using [SDKman](https://sdkman.io)
 
-# Initialize the shell with GraalVM and Maven
+**Initialize the shell with GraalVM and Maven**
 ```bash
 sdk env install
 ```
-# Build the GraalPy native image
+**Build the GraalPy native image**
 ```bash
 mvn -Pnative package
 ```
-# Execute the native version of the Python code: hello.py
+**Execute the native version of the Python code: hello.py**
 ```bash
 ./target/buildpackify
 ```
