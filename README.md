@@ -43,8 +43,8 @@ pack build buildpackify \
 ```
 > Now you have an OCI image to run
 
-```bash
 # Run the OCI image
+```bash
 docker run buildpackify
 ```
 > Q.E.D.
@@ -53,12 +53,16 @@ docker run buildpackify
 
 - Using [SDKman](https://sdkman.io)
 
-```bash
 # Initialize the shell with GraalVM and Maven
+```bash
 sdk env install
+```
 # Build the GraalPy native image
+```bash
 mvn -Pnative package
+```
 # Execute the native version of the Python code: hello.py
+```bash
 ./target/buildpackify
 ```
 
